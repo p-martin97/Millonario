@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteStatement;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -523,13 +524,13 @@ public class Jugar extends Fragment {
         audienciaBt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (audience==1)
-                    res1Bt.setVisibility(View.INVISIBLE);
+                    res1Bt.setBackgroundColor(Color.GREEN);
                 if (audience==2)
-                    res2Bt.setVisibility(View.INVISIBLE);
+                    res2Bt.setBackgroundColor(Color.GREEN);
                 if (audience==3)
-                    res3Bt.setVisibility(View.INVISIBLE);
+                    res3Bt.setBackgroundColor(Color.GREEN);
                 if (audience==4)
-                    res4Bt.setVisibility(View.INVISIBLE);
+                    res4Bt.setBackgroundColor(Color.GREEN);
                 audienciaBt.setVisibility(View.INVISIBLE);
             }
 
@@ -537,13 +538,13 @@ public class Jugar extends Fragment {
         llamadaBt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (phone==1)
-                    res1Bt.setVisibility(View.INVISIBLE);
+                    res1Bt.setBackgroundColor(Color.GREEN);
                 if (phone==2)
-                    res2Bt.setVisibility(View.INVISIBLE);
+                    res2Bt.setBackgroundColor(Color.GREEN);
                 if (phone==3)
-                    res3Bt.setVisibility(View.INVISIBLE);
+                    res3Bt.setBackgroundColor(Color.GREEN);
                 if (phone==4)
-                    res4Bt.setVisibility(View.INVISIBLE);
+                    res4Bt.setBackgroundColor(Color.GREEN);
                 llamadaBt.setVisibility(View.INVISIBLE);
             }
 
