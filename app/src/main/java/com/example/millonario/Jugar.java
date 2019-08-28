@@ -306,10 +306,10 @@ public class Jugar extends Fragment {
                 res2Bt.setVisibility(View.VISIBLE);
                 res3Bt.setVisibility(View.VISIBLE);
                 res4Bt.setVisibility(View.VISIBLE);
-                res1Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res2Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res3Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res4Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res1Bt.setBackgroundColor(Color.WHITE);
+                res2Bt.setBackgroundColor(Color.WHITE);
+                res3Bt.setBackgroundColor(Color.WHITE);
+                res4Bt.setBackgroundColor(Color.WHITE);
                 jugando.setVisibility(View.VISIBLE);
                 pr.setVisibility(View.VISIBLE);
                 pt.setVisibility(View.VISIBLE);
@@ -343,10 +343,10 @@ public class Jugar extends Fragment {
                 res2Bt.setVisibility(View.VISIBLE);
                 res3Bt.setVisibility(View.VISIBLE);
                 res4Bt.setVisibility(View.VISIBLE);
-                res1Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res2Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res3Bt.setBackgroundResource(android.R.drawable.btn_default);
-                res4Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res1Bt.setBackgroundColor(Color.WHITE);
+                res2Bt.setBackgroundColor(Color.WHITE);
+                res3Bt.setBackgroundColor(Color.WHITE);
+                res4Bt.setBackgroundColor(Color.WHITE);
 
                 pt.setVisibility(View.VISIBLE);
                 jugando.setVisibility(View.VISIBLE);
@@ -381,6 +381,10 @@ public class Jugar extends Fragment {
             if (npregunta < 15 && right.equals("1")) {
                 npregunta++;
                 sumaPuntos();
+                res1Bt.setBackgroundColor(Color.WHITE);
+                res2Bt.setBackgroundColor(Color.WHITE);
+                res3Bt.setBackgroundColor(Color.WHITE);
+                res4Bt.setBackgroundColor(Color.WHITE);
                 cargaPreguntas();
             }
             else {
@@ -417,6 +421,10 @@ public class Jugar extends Fragment {
                 if (npregunta < 15 && right.equals("2")) {
                     npregunta++;
                     sumaPuntos();
+                    res1Bt.setBackgroundColor(Color.WHITE);
+                    res2Bt.setBackgroundColor(Color.WHITE);
+                    res3Bt.setBackgroundColor(Color.WHITE);
+                    res4Bt.setBackgroundColor(Color.WHITE);
                     cargaPreguntas();
                 }
                 else {
@@ -454,6 +462,10 @@ public class Jugar extends Fragment {
                 if (npregunta < 15 && right.equals("3")) {
                     npregunta++;
                     sumaPuntos();
+                    res1Bt.setBackgroundColor(Color.WHITE);
+                    res2Bt.setBackgroundColor(Color.WHITE);
+                    res3Bt.setBackgroundColor(Color.WHITE);
+                    res4Bt.setBackgroundColor(Color.WHITE);
                     cargaPreguntas();
                 }
                 else {
@@ -488,6 +500,10 @@ public class Jugar extends Fragment {
                 if (npregunta < 15 && right.equals("4")) {
                     npregunta++;
                     sumaPuntos();
+                    res1Bt.setBackgroundColor(Color.WHITE);
+                    res2Bt.setBackgroundColor(Color.WHITE);
+                    res3Bt.setBackgroundColor(Color.WHITE);
+                    res4Bt.setBackgroundColor(Color.WHITE);
                     cargaPreguntas();
                 }
                 else {
