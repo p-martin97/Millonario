@@ -306,6 +306,10 @@ public class Jugar extends Fragment {
                 res2Bt.setVisibility(View.VISIBLE);
                 res3Bt.setVisibility(View.VISIBLE);
                 res4Bt.setVisibility(View.VISIBLE);
+                res1Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res2Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res3Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res4Bt.setBackgroundResource(android.R.drawable.btn_default);
                 jugando.setVisibility(View.VISIBLE);
                 pr.setVisibility(View.VISIBLE);
                 pt.setVisibility(View.VISIBLE);
@@ -339,6 +343,11 @@ public class Jugar extends Fragment {
                 res2Bt.setVisibility(View.VISIBLE);
                 res3Bt.setVisibility(View.VISIBLE);
                 res4Bt.setVisibility(View.VISIBLE);
+                res1Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res2Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res3Bt.setBackgroundResource(android.R.drawable.btn_default);
+                res4Bt.setBackgroundResource(android.R.drawable.btn_default);
+
                 pt.setVisibility(View.VISIBLE);
                 jugando.setVisibility(View.VISIBLE);
                 pr.setVisibility(View.VISIBLE);
